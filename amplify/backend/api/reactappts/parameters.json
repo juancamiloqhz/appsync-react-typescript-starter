@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "reactappts",
+    "schemaGraphql": "s3://reactappts-20181018140123-deployment/amplify-appsync-files/schema.graphql.1539889717143",
+    "ResolverBucket": "reactappts-20181018140123-deployment",
+    "ResolverRootKey": "amplify-appsync-files",
+    "DeploymentTimestamp": "1539889717143"
+}

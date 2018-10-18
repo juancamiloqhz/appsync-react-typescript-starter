@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "reactappts-20181018140123-authRole",
+			"UnauthRoleArn": "arn:aws:iam::754815162139:role/reactappts-20181018140123-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::754815162139:role/reactappts-20181018140123-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "reactappts-20181018140123-deployment",
+			"UnauthRoleName": "reactappts-20181018140123-unauthRole",
+			"StackName": "reactappts-20181018140123",
+			"StackId": "arn:aws:cloudformation:us-east-1:754815162139:stack/reactappts-20181018140123/351f1a30-d308-11e8-9142-500c524058c6"
+		}
+	},
+	"api": {
+		"reactappts": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"securityType": "API_KEY",
+				"GraphQLAPIIdOutput": "kbngzlj7mjfuxjdjsjbyadmhj4",
+				"GraphQLAPIEndpointOutput": "https://qufofdxevfd7vpxmeqei33xys4.appsync-api.us-east-1.amazonaws.com/graphql",
+				"GraphQLAPIKeyOutput": "da2-m34zzwqzd5d65h5rioxpt7ghka"
+			},
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/reactappts-20181018140123-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+				"logicalId": "apireactappts"
+			},
+			"lastPushTimeStamp": "2018-10-18T19:11:31.866Z",
+			"lastPushDirHash": "sW75bDE+W9zRRCgHSEAcV2KCuQc="
+		}
+	}
+}
